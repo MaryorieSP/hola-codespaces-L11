@@ -1,0 +1,30 @@
+GET https://practica-con-base.onrender.com/api/usuario/all
+
+
+###
+
+POST https://practica-con-base.onrender.com/api/usuario/add
+Content-Type: application/x-www-form-urlencoded
+
+name=Koki
+&email=koki@hotmail.com
+
+###
+
+PUT https://practica-con-base.onrender.com/api/usuario/edit
+Content-Type: application/x-www-form-urlencoded
+
+id=3
+&name=Korra
+&email=Korra_20@gmail.com
+
+###
+
+DELETE https://practica-con-base.onrender.com/api/usuario/del
+Content-Type: application/x-www-form-urlencoded
+
+id=3
+
+###
+
+GET https://practica-con-base.onrender.com/api/usuario/get/2
